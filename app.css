@@ -1,0 +1,98 @@
+
+body{
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+/*----- START top menu -----*/
+/*black: #26292d
+  blue: rgb(44, 167, 255)
+
+*/
+
+/*----- START page-top -----*/
+
+#page-top {
+    margin-left: 0px;
+}
+
+#background-one {
+    background: center center fixed;
+    background: url("image/main.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 72vw;
+    width: 100%;
+    z-index: -2;
+    opacity: 1;
+}
+
+#background-two {
+    background: center center fixed;
+    background: url("image/main.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 72vw;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.top-map {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.top-map ul {
+    margin-top: 0;
+    margin-left: 0;
+    position: absolute;
+}
+
+.top-map li {
+    transition: All 0.5s ease-in-out;
+    -moz-transition: All 0.5s ease-in-out;
+    -webkit-transition: All 0.5s ease-in-out;
+    -o-transition: All 0.5s ease-in-out;
+    background: url("image/spot.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    position: absolute;
+    text-indent: -99999px;
+}
+
+.top-map li:hover {
+    transform:scale(1.6);
+    -webkit-transform:scale(1.6);
+    -moz-transform:scale(1.6);
+    -o-transform:scale(1.6);
+}
+
+.top-map li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.top-map img{
+    width: 50vw;
+    height: auto;
+    display:block;
+    margin:auto;
+}
+
+/*----- END page-top -----*/
+
+/*----- START page-middle -----*/
+
+#page-middle {
+    height: 50vw;
+    background-color: #f3f3f3;
+}
+
+/*----- END page-middle -----*/
